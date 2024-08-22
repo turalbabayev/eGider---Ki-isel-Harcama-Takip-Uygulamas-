@@ -7,8 +7,8 @@
 
 import SwiftUI
 import SwiftData
-
-struct NewExpenseView: View {
+import WidgetKit
+struct TransactionView: View {
     //Env Propeties
     @Environment(\.modelContext) private var context
     @Environment(\.dismiss) private var dismiss
@@ -133,6 +133,7 @@ struct NewExpenseView: View {
        
         //Dismissing View
         dismiss()
+        WidgetCenter.shared.reloadAllTimelines()
     }
     @ViewBuilder
     func CustomSection(_ title: String, _ hint: String ,value: Binding<String>) -> some View{
@@ -197,6 +198,6 @@ struct NewExpenseView: View {
 
 #Preview {
     NavigationStack{
-        NewExpenseView()
+        TransactionView()
     }
 }

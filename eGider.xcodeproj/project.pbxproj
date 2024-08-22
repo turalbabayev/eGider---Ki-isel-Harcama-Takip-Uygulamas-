@@ -11,7 +11,65 @@
 		F661F7712C6FA53C00508B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F7702C6FA53C00508B4F /* ContentView.swift */; };
 		F661F7732C6FA53E00508B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F661F7722C6FA53E00508B4F /* Assets.xcassets */; };
 		F661F7762C6FA53E00508B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F661F7752C6FA53E00508B4F /* Preview Assets.xcassets */; };
+		F6EE108F2C6FA5F400C8917B /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE108E2C6FA5F400C8917B /* IntroScreen.swift */; };
+		F6EE10922C6FA76800C8917B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10912C6FA76800C8917B /* Constants.swift */; };
+		F6EE10942C6FB1F900C8917B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10932C6FB1F900C8917B /* Tab.swift */; };
+		F6EE10962C6FB81800C8917B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10952C6FB81800C8917B /* Category.swift */; };
+		F6EE10982C6FB84D00C8917B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10972C6FB84D00C8917B /* Transaction.swift */; };
+		F6EE109A2C6FB90300C8917B /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10992C6FB90300C8917B /* TintColor.swift */; };
+		F6EE10A12C6FBA9A00C8917B /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10A02C6FBA9900C8917B /* Search.swift */; };
+		F6EE10A52C6FBAB400C8917B /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10A42C6FBAB400C8917B /* Graphs.swift */; };
+		F6EE10A72C6FBAC000C8917B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10A62C6FBAC000C8917B /* Settings.swift */; };
+		F6EE10A92C6FBC8800C8917B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10A82C6FBC8800C8917B /* ViewExtensions.swift */; };
+		F6EE10AB2C6FC3E300C8917B /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10AA2C6FC3E300C8917B /* Date+Extensions.swift */; };
+		F6EE10AE2C73D90100C8917B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10AD2C73D90100C8917B /* CardView.swift */; };
+		F6EE10B02C73E18C00C8917B /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10AF2C73E18C00C8917B /* TransactionCardView.swift */; };
+		F6EE10B22C73EAB100C8917B /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10B12C73EAB100C8917B /* DateFilterView.swift */; };
+		F6EE10B42C73F79A00C8917B /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10B32C73F79A00C8917B /* LockView.swift */; };
+		F6EE10B62C73FD9E00C8917B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10B52C73FD9E00C8917B /* TransactionView.swift */; };
+		F6EE10B82C7408BD00C8917B /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10B72C7408BD00C8917B /* Recents.swift */; };
+		F6EE10BA2C752D5B00C8917B /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10B92C752D5B00C8917B /* SwipeAction.swift */; };
+		F6EE10BC2C75329100C8917B /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10BB2C75329100C8917B /* FilterTransactionView.swift */; };
+		F6EE10BE2C75433100C8917B /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10BD2C75433100C8917B /* ChartModel.swift */; };
+		F6EE10C62C754F6300C8917B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EE10C52C754F6300C8917B /* WidgetKit.framework */; };
+		F6EE10C82C754F6300C8917B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EE10C72C754F6300C8917B /* SwiftUI.framework */; };
+		F6EE10CB2C754F6300C8917B /* StatsCardViewBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10CA2C754F6300C8917B /* StatsCardViewBundle.swift */; };
+		F6EE10CD2C754F6300C8917B /* StatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10CC2C754F6300C8917B /* StatsCardView.swift */; };
+		F6EE10CF2C754F6600C8917B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6EE10CE2C754F6600C8917B /* Assets.xcassets */; };
+		F6EE10D32C754F6600C8917B /* StatsCardViewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F6EE10C32C754F6300C8917B /* StatsCardViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6EE10D82C75507300C8917B /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10BB2C75329100C8917B /* FilterTransactionView.swift */; };
+		F6EE10D92C75509A00C8917B /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10AA2C6FC3E300C8917B /* Date+Extensions.swift */; };
+		F6EE10DA2C75509C00C8917B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10A82C6FBC8800C8917B /* ViewExtensions.swift */; };
+		F6EE10DB2C7550C400C8917B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10AD2C73D90100C8917B /* CardView.swift */; };
+		F6EE10DC2C7550E800C8917B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10972C6FB84D00C8917B /* Transaction.swift */; };
+		F6EE10DD2C7550EB00C8917B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10952C6FB81800C8917B /* Category.swift */; };
+		F6EE10DE2C75519F00C8917B /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10992C6FB90300C8917B /* TintColor.swift */; };
+		F6EE10DF2C7551AA00C8917B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE10912C6FA76800C8917B /* Constants.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6EE10D12C754F6600C8917B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F661F7632C6FA53C00508B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EE10C22C754F6300C8917B;
+			remoteInfo = StatsCardViewExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6EE10D72C754F6600C8917B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F6EE10D32C754F6600C8917B /* StatsCardViewExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F661F76B2C6FA53C00508B4F /* eGider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eGider.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +77,33 @@
 		F661F7702C6FA53C00508B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F661F7722C6FA53E00508B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F661F7752C6FA53E00508B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6EE108E2C6FA5F400C8917B /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		F6EE10912C6FA76800C8917B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6EE10932C6FB1F900C8917B /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		F6EE10952C6FB81800C8917B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F6EE10972C6FB84D00C8917B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F6EE10992C6FB90300C8917B /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		F6EE10A02C6FBA9900C8917B /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		F6EE10A42C6FBAB400C8917B /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		F6EE10A62C6FBAC000C8917B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F6EE10A82C6FBC8800C8917B /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		F6EE10AA2C6FC3E300C8917B /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F6EE10AD2C73D90100C8917B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F6EE10AF2C73E18C00C8917B /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		F6EE10B12C73EAB100C8917B /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		F6EE10B32C73F79A00C8917B /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		F6EE10B52C73FD9E00C8917B /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		F6EE10B72C7408BD00C8917B /* Recents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		F6EE10B92C752D5B00C8917B /* SwipeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		F6EE10BB2C75329100C8917B /* FilterTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionView.swift; sourceTree = "<group>"; };
+		F6EE10BD2C75433100C8917B /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		F6EE10C32C754F6300C8917B /* StatsCardViewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsCardViewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE10C52C754F6300C8917B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F6EE10C72C754F6300C8917B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F6EE10CA2C754F6300C8917B /* StatsCardViewBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardViewBundle.swift; sourceTree = "<group>"; };
+		F6EE10CC2C754F6300C8917B /* StatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardView.swift; sourceTree = "<group>"; };
+		F6EE10CE2C754F6600C8917B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6EE10D02C754F6600C8917B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +114,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6EE10C02C754F6300C8917B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE10C82C754F6300C8917B /* SwiftUI.framework in Frameworks */,
+				F6EE10C62C754F6300C8917B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				F661F76D2C6FA53C00508B4F /* eGider */,
+				F6EE10C92C754F6300C8917B /* StatsCardView */,
+				F6EE10C42C754F6300C8917B /* Frameworks */,
 				F661F76C2C6FA53C00508B4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				F661F76B2C6FA53C00508B4F /* eGider.app */,
+				F6EE10C32C754F6300C8917B /* StatsCardViewExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +148,9 @@
 		F661F76D2C6FA53C00508B4F /* eGider */ = {
 			isa = PBXGroup;
 			children = (
+				F6EE10902C6FA75A00C8917B /* Helpers */,
+				F661F77D2C6FA56200508B4F /* Model */,
+				F661F77C2C6FA55C00508B4F /* View */,
 				F661F76E2C6FA53C00508B4F /* eGiderApp.swift */,
 				F661F7702C6FA53C00508B4F /* ContentView.swift */,
 				F661F7722C6FA53E00508B4F /* Assets.xcassets */,
@@ -67,6 +167,83 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F661F77C2C6FA55C00508B4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10AC2C73D8EE00C8917B /* Helpers */,
+				F6EE109B2C6FBA5500C8917B /* TabViews */,
+				F6EE108E2C6FA5F400C8917B /* IntroScreen.swift */,
+				F6EE10B52C73FD9E00C8917B /* TransactionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F661F77D2C6FA56200508B4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10932C6FB1F900C8917B /* Tab.swift */,
+				F6EE10952C6FB81800C8917B /* Category.swift */,
+				F6EE10972C6FB84D00C8917B /* Transaction.swift */,
+				F6EE10992C6FB90300C8917B /* TintColor.swift */,
+				F6EE10BD2C75433100C8917B /* ChartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6EE10902C6FA75A00C8917B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10912C6FA76800C8917B /* Constants.swift */,
+				F6EE10A82C6FBC8800C8917B /* ViewExtensions.swift */,
+				F6EE10AA2C6FC3E300C8917B /* Date+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F6EE109B2C6FBA5500C8917B /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10B72C7408BD00C8917B /* Recents.swift */,
+				F6EE10A02C6FBA9900C8917B /* Search.swift */,
+				F6EE10A42C6FBAB400C8917B /* Graphs.swift */,
+				F6EE10A62C6FBAC000C8917B /* Settings.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		F6EE10AC2C73D8EE00C8917B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10B92C752D5B00C8917B /* SwipeAction.swift */,
+				F6EE10B32C73F79A00C8917B /* LockView.swift */,
+				F6EE10AD2C73D90100C8917B /* CardView.swift */,
+				F6EE10AF2C73E18C00C8917B /* TransactionCardView.swift */,
+				F6EE10B12C73EAB100C8917B /* DateFilterView.swift */,
+				F6EE10BB2C75329100C8917B /* FilterTransactionView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F6EE10C42C754F6300C8917B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10C52C754F6300C8917B /* WidgetKit.framework */,
+				F6EE10C72C754F6300C8917B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6EE10C92C754F6300C8917B /* StatsCardView */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE10CA2C754F6300C8917B /* StatsCardViewBundle.swift */,
+				F6EE10CC2C754F6300C8917B /* StatsCardView.swift */,
+				F6EE10CE2C754F6600C8917B /* Assets.xcassets */,
+				F6EE10D02C754F6600C8917B /* Info.plist */,
+			);
+			path = StatsCardView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +254,34 @@
 				F661F7672C6FA53C00508B4F /* Sources */,
 				F661F7682C6FA53C00508B4F /* Frameworks */,
 				F661F7692C6FA53C00508B4F /* Resources */,
+				F6EE10D72C754F6600C8917B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F6EE10D22C754F6600C8917B /* PBXTargetDependency */,
 			);
 			name = eGider;
 			productName = eGider;
 			productReference = F661F76B2C6FA53C00508B4F /* eGider.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F6EE10C22C754F6300C8917B /* StatsCardViewExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE10D42C754F6600C8917B /* Build configuration list for PBXNativeTarget "StatsCardViewExtension" */;
+			buildPhases = (
+				F6EE10BF2C754F6300C8917B /* Sources */,
+				F6EE10C02C754F6300C8917B /* Frameworks */,
+				F6EE10C12C754F6300C8917B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsCardViewExtension;
+			productName = StatsCardViewExtension;
+			productReference = F6EE10C32C754F6300C8917B /* StatsCardViewExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +294,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					F661F76A2C6FA53C00508B4F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F6EE10C22C754F6300C8917B = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,6 +315,7 @@
 			projectRoot = "";
 			targets = (
 				F661F76A2C6FA53C00508B4F /* eGider */,
+				F6EE10C22C754F6300C8917B /* StatsCardViewExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +330,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6EE10C12C754F6300C8917B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE10CF2C754F6600C8917B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +345,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EE109A2C6FB90300C8917B /* TintColor.swift in Sources */,
+				F6EE10982C6FB84D00C8917B /* Transaction.swift in Sources */,
+				F6EE10BC2C75329100C8917B /* FilterTransactionView.swift in Sources */,
 				F661F7712C6FA53C00508B4F /* ContentView.swift in Sources */,
+				F6EE10AE2C73D90100C8917B /* CardView.swift in Sources */,
+				F6EE10B42C73F79A00C8917B /* LockView.swift in Sources */,
+				F6EE10B22C73EAB100C8917B /* DateFilterView.swift in Sources */,
+				F6EE108F2C6FA5F400C8917B /* IntroScreen.swift in Sources */,
+				F6EE10BE2C75433100C8917B /* ChartModel.swift in Sources */,
+				F6EE10942C6FB1F900C8917B /* Tab.swift in Sources */,
+				F6EE10A72C6FBAC000C8917B /* Settings.swift in Sources */,
+				F6EE10A92C6FBC8800C8917B /* ViewExtensions.swift in Sources */,
+				F6EE10B62C73FD9E00C8917B /* TransactionView.swift in Sources */,
+				F6EE10962C6FB81800C8917B /* Category.swift in Sources */,
+				F6EE10AB2C6FC3E300C8917B /* Date+Extensions.swift in Sources */,
+				F6EE10A12C6FBA9A00C8917B /* Search.swift in Sources */,
+				F6EE10BA2C752D5B00C8917B /* SwipeAction.swift in Sources */,
 				F661F76F2C6FA53C00508B4F /* eGiderApp.swift in Sources */,
+				F6EE10A52C6FBAB400C8917B /* Graphs.swift in Sources */,
+				F6EE10922C6FA76800C8917B /* Constants.swift in Sources */,
+				F6EE10B82C7408BD00C8917B /* Recents.swift in Sources */,
+				F6EE10B02C73E18C00C8917B /* TransactionCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE10BF2C754F6300C8917B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE10DC2C7550E800C8917B /* Transaction.swift in Sources */,
+				F6EE10CD2C754F6300C8917B /* StatsCardView.swift in Sources */,
+				F6EE10D92C75509A00C8917B /* Date+Extensions.swift in Sources */,
+				F6EE10CB2C754F6300C8917B /* StatsCardViewBundle.swift in Sources */,
+				F6EE10DA2C75509C00C8917B /* ViewExtensions.swift in Sources */,
+				F6EE10DF2C7551AA00C8917B /* Constants.swift in Sources */,
+				F6EE10DB2C7550C400C8917B /* CardView.swift in Sources */,
+				F6EE10D82C75507300C8917B /* FilterTransactionView.swift in Sources */,
+				F6EE10DE2C75519F00C8917B /* TintColor.swift in Sources */,
+				F6EE10DD2C7550EB00C8917B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6EE10D22C754F6600C8917B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EE10C22C754F6300C8917B /* StatsCardViewExtension */;
+			targetProxy = F6EE10D12C754F6600C8917B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F661F7772C6FA53E00508B4F /* Debug */ = {
@@ -267,6 +520,7 @@
 		F661F77A2C6FA53E00508B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -275,11 +529,13 @@
 				DEVELOPMENT_TEAM = FJ7F33948Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Description;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +552,7 @@
 		F661F77B2C6FA53E00508B4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,11 +561,13 @@
 				DEVELOPMENT_TEAM = FJ7F33948Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Description;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +575,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.turalbabayev.eGider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6EE10D52C754F6600C8917B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJ7F33948Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turalbabayev.eGider.StatsCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6EE10D62C754F6600C8917B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJ7F33948Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turalbabayev.eGider.StatsCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +652,15 @@
 			buildConfigurations = (
 				F661F77A2C6FA53E00508B4F /* Debug */,
 				F661F77B2C6FA53E00508B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE10D42C754F6600C8917B /* Build configuration list for PBXNativeTarget "StatsCardViewExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE10D52C754F6600C8917B /* Debug */,
+				F6EE10D62C754F6600C8917B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

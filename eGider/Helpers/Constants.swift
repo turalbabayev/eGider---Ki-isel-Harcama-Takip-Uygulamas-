@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct Constants: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+//let appTint: Color = Color(red: 0x03 / 255, green: 0x34 / 255, blue: 0x6E / 255)
+let appTint: Color = .red
 
-#Preview {
-    Constants()
-}

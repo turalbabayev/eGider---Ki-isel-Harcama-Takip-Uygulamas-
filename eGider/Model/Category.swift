@@ -1,5 +1,5 @@
 //
-//  Catagory.swift
+//  Category.swift
 //  eGider
 //
 //  Created by Tural Babayev on 16.08.2024.
